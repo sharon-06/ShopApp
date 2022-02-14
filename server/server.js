@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+require("dotenv").config({ path: __dirname + "/.env" });
 const { PORT, CLIENT_URL } = require('./constants')
 const cookieParser = require('cookie-parser')
 const passport = require('passport')
