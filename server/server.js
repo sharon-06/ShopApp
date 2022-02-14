@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser')
 const passport = require('passport')
 const cors = require('cors')
 
-// impost passport middleware
+// import passport middleware
 require('./middlewares/passport-middleware')
 
 // initialize middlewares
