@@ -9,6 +9,6 @@ router.get("/get-users", getUsers)
 router.post('/signup', registerValidation, validationMiddleware, newUser)
 router.post('/login', loginValidation, validationMiddleware, login)
 router.get('/dashboard', userAuth, dashboard)
-router.get('/logout', userAuth, logout)
+router.get('/logout', logout)
 
 module.exports = router
