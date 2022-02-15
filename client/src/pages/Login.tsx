@@ -1,7 +1,11 @@
+import { useState } from "react";
+import { onSignup } from "../api/auth";
+import { Layout } from "../components/Layout";
+
 export function Login() {
     return (
-      <div>
+      <Layout>
         <h1>Login</h1>
-      </div>
+      </Layout>
     )
   }

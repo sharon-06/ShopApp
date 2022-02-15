@@ -1,0 +1,8 @@
+*, *::before, *::after{
+    margin: 0;
+}
+
+body, html{
+    background: #121416;
+    color: rgb(83, 146, 202)
+}

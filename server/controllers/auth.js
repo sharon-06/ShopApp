@@ -35,7 +35,7 @@ exports.newUser = async (req, res) => {
 
         return res.status(201).json({
             success: true,
-            message: "The signup was succesful"
+            message: "The signup was successful"
         })
         
     } catch (error) {

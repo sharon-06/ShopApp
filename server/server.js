@@ -24,7 +24,7 @@ const authRoute = require('./routes/auth')
 
 // initialize routes
 
-app.use('/', authRoute)
+app.use('/api', authRoute)
 
 // app start
 

@@ -18,11 +18,11 @@ export function Navbar() {
                     </div>
                 ) : (
                     <div>
-                        <NavLink to='login' className={'text-decoration-none'}>
+                        <NavLink to='/login' className={'text-decoration-none'}>
                             <span className="mx-3">Login</span>
                         </NavLink>
 
-                        <NavLink to='signup' className={'text-decoration-none'}>
+                        <NavLink to='/signup' className={'text-decoration-none'}>
                             <span className="mx-3">Signup</span>
                         </NavLink>
                     </div>
